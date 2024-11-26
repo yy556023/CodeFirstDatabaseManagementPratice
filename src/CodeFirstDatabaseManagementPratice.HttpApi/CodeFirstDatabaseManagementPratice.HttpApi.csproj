@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <ItemGroup>
+        <ProjectReference Include="..\CodeFirstDatabaseManagementPratice.Application.Contracts\CodeFirstDatabaseManagementPratice.Application.Contracts.csproj" />
+    </ItemGroup>
+    
+</Project>

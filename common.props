@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	<DocumentationFile>bin\$(Configuration)\net8.0\$(MSBuildProjectName).xml</DocumentationFile>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	<NoWarn>CS1591;CA1822;IDE0037;IDE0042;IDE0130;IDE0290;IDE0305;</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	<WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+        <PackageReference Include="MSTest" Version="3.6.3" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\CodeFirstDatabaseManagementPratice.Domain\CodeFirstDatabaseManagementPratice.Domain.csproj" />
+        <ProjectReference Include="..\CodeFirstDatabaseManagementPratice.TestBase\CodeFirstDatabaseManagementPratice.TestBase.csproj" />
+    </ItemGroup>
+
+</Project>
