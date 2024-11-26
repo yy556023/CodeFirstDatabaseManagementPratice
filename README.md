@@ -56,4 +56,6 @@ docker run `
 
 ### Basic usage
 
+開始練習 請使用develop分支
 
+main分支為完成後的樣子
