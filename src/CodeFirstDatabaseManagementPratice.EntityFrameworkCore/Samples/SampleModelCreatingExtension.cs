@@ -15,8 +15,8 @@ public static class SampleModelCreatingExtension
 
             entity.Property(e => e.Id).HasColumnName(nameof(Sample.Id)).HasComment("流水號");
             entity.Property(e => e.Name).HasColumnName(nameof(Sample.Name)).HasComment("名稱").HasMaxLength(20).IsRequired();
-            entity.Property(e => e.NullableName).HasColumnName(nameof(Sample.NullableName)).HasComment("可Null名稱").HasMaxLength(20).IsRequired();
-            entity.Property(e => e.Price).HasColumnName(nameof(Sample.Price)).HasComment("價格").HasColumnType("decimal(10, 2)").HasDefaultValue(0);
+            entity.Property(e => e.NullableName).HasColumnName(nameof(Sample.NullableName)).HasComment("可Null名稱").HasMaxLength(20);
+            entity.Property(e => e.Price).HasColumnName(nameof(Sample.Price)).HasComment("價格").HasColumnType("decimal(10, 2)").HasDefaultValue(0).IsRequired();
             entity.Property(e => e.CreatedAt).HasColumnName(nameof(Sample.CreatedAt)).HasComment("建立時間").IsRequired();
             entity.Property(e => e.UpdatedAt).HasColumnName(nameof(Sample.UpdatedAt)).HasComment("更新時間");
 
