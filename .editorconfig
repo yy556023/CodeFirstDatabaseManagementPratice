@@ -27,3 +27,11 @@ indent_size = 2
 [*.props]
 # 縮排使用 2 個空格
 indent_size = 2
+
+[*.xml]
+# 縮排使用 2 個空格
+indent_size = 2
+
+[*.md]
+# 縮排使用 2 個空格
+indent_size = 2

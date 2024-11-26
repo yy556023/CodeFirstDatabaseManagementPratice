@@ -31,13 +31,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDatabaseManagement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDatabaseManagementPratice.EntityFrameworkCore.Tests", "test\CodeFirstDatabaseManagementPratice.EntityFrameworkCore.Tests\CodeFirstDatabaseManagementPratice.EntityFrameworkCore.Tests.csproj", "{2DA4DE1D-1478-4889-AAE1-A71B8D9C4C00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88C2747A-4A5B-4E3D-AE4B-5B4C12956703}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		common.props = common.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{84846FD5-AFA9-416B-BBA5-56DB0FFA2528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -88,6 +93,9 @@ Global
 		{2DA4DE1D-1478-4889-AAE1-A71B8D9C4C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DA4DE1D-1478-4889-AAE1-A71B8D9C4C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DA4DE1D-1478-4889-AAE1-A71B8D9C4C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{84846FD5-AFA9-416B-BBA5-56DB0FFA2528} = {2B24B0AD-E9D7-40CE-A48F-9F4514048DC8}
