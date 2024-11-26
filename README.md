@@ -1,5 +1,6 @@
 ### Setup
-※本教學使用MySQL
+
+※本教學使用 MySQL，環境為Windows
 
 選擇一個 要使用的資料庫，執行 docker 指令
 
@@ -40,15 +41,19 @@ docker run `
 
 ```json
 {
-    "Logging": {
-        "LogLevel": {
-            "Default": "Information",
-            "Microsoft.AspNetCore": "Warning"
-        }
-    },
-    "AllowedHosts": "*",
-    "ConnectionStrings": {
-        "Default": "Server=localhost;Database={YourDatabaseName}; uid=root; pwd={YOUR_PASSWORD};TreatTinyAsBoolean=false;Charset=utf8mb4;"
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
     }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "Default": "Server=localhost;Database={YourDatabaseName}; uid=root; pwd={YOUR_PASSWORD};TreatTinyAsBoolean=false;Charset=utf8mb4;"
+  }
 }
 ```
+
+### Basic usage
+
+
