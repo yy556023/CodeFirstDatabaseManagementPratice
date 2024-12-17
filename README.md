@@ -22,7 +22,7 @@ docker run `
 --name mysql `
 --env-file mysql/.env `
 -p 3306:3306 `
--v mysql_data:/var/lib/mysql/data `
+-v mysql_data:/var/lib/mysql `
 -d mysql:8.0.35
 ```
 
