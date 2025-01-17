@@ -33,7 +33,7 @@ docker run `
 --name postgresql `
 --env-file postgresql/.env `
 -p 5432:5432 `
--v mysql_data:/var/lib/postgresql/data `
+-v postgresql_data:/var/lib/postgresql/data `
 -d postgres:16.6
 ```
 
