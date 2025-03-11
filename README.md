@@ -55,7 +55,7 @@ docker run `
 -p 5432:5432 `
 -v postgresql_data:/var/lib/postgresql/data `
 --restart unless-stopped `
--d postgres:16.6
+-d postgres:17.4
 ```
 
 先加入連線字串進 appsettings.json
