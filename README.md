@@ -51,7 +51,7 @@ docker run `
 --name mysql `
 -e MYSQL_ROOT_PASSWORD=cFGqSgHZyhZ4 `
 -p 3306:3306 `
--v C:\Users\{Username}\Desktop\MySQL:/var/lib/mysql `
+-v C:/Users/{Username}/Desktop/MySQL:/var/lib/mysql `
 --restart unless-stopped `
 -d mysql:8.0.35
 ```
