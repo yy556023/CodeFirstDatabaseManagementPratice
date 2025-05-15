@@ -45,6 +45,17 @@ docker run `
 -d mysql:8.0.35
 ```
 
+掛載在本機位置
+```ps1
+docker run `
+--name mysql `
+-e MYSQL_ROOT_PASSWORD=cFGqSgHZyhZ4 `
+-p 3306:3306 `
+-v C:\Users\{Username}\Desktop\MySQL:/var/lib/mysql `
+--restart unless-stopped `
+-d mysql:8.0.35
+```
+
 PostgreSQL
 
 ```ps1
